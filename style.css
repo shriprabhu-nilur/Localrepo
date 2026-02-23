@@ -1,3 +1,43 @@
-p{
-    color: pink;
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+
+    padding: 20px;
+}
+
+.head p{
+
+    color: gold;
+    background-color: pink;
+    display: inline-block;
+
+}
+.content{
+
+    background-color: black;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+
+.content h5{
+
+    color: gold;
+    background-color: pink;
+    margin-left: 40px;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.navbar{
+    height: 100px;
+    background-color: black;
+    display: flex
+    
 }
